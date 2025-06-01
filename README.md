@@ -1,6 +1,6 @@
-# epub_pro
+# epub_enchanted
 
-This is a fork of a [fork](https://github.com/4akloon/epub_pro), of a [fork](https://github.com/ScerIO/epubx.dart), of [dart-epub](https://github.com/orthros/dart-epub). All of which seem unmaintained.
+This is a fork of a [fork](https://github.com/watate/epub_enchanted), of a [fork](https://github.com/4akloon/epub_plus), of a [fork](https://github.com/ScerIO/epubx.dart), of [dart-epub](https://github.com/orthros/dart-epub). All of which seem unmaintained.
 
 I'm maintaining this so that I can read EPUBs on my app.
 
@@ -8,6 +8,7 @@ I'm maintaining this so that I can read EPUBs on my app.
 1. Updated dependencies (so your installs will work)
 2. Fixed readBook crashing when EPUB manifest cover image doesn't exist
 3. Handle unreliable toc.ncx. When your NCX conflicts with your Spine, we try to grab the missing chapters that are in your Spine instead (this seems to be how Apple Books handles it for example)
+4. Fixed (or try fixed) to reader TOC with subchapter
 
 ## Internal
 dart pub publish --dry-run
@@ -19,12 +20,12 @@ Epub Reader and Writer for Dart inspired by [this fantastic C# Epub Reader](http
 
 This does not rely on the ```dart:io``` package in any way, so it is avilable for both desktop and web-based implementations
 
-[![pub package](https://img.shields.io/pub/v/epub_pro.svg)](https://pub.dartlang.org/packages/epub_pro)
+[![pub package](https://img.shields.io/pub/v/epub_enchanted.svg)](https://pub.dartlang.org/packages/epub_enchanted)
 ## Installing
 Add the package to the ```dependencies``` section of your pubspec.yaml
 ```yaml
 dependencies:
-  epub_pro: any
+  epub_enchanted: any
 ```
 
 ## Example

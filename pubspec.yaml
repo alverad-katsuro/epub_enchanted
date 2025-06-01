@@ -1,7 +1,7 @@
-name: epub_pro
+name: epub_enchanted
 description: EPUB Parser for Dart. Suitable for use on the Server, the Web, or in Flutter
-homepage: https://github.com/watate/epub_pro
-issue_tracker: https://github.com/watate/epub_pro/issues
+homepage: https://github.com/alverad-katsuro/epub_enchanted
+issue_tracker: https://github.com/alverad-katsuro/epub_enchanted/issues
 version: 5.0.5
 
 environment:

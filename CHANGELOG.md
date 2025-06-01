@@ -24,14 +24,14 @@
 
 ## 3.0.0
 ### Changed
-- `metadata` file now saves as `mimetype` [pull#1](https://github.com/rbcprolabs/epubx.dart/pull/1) 
+- `metadata` file now saves as `mimetype` [pull#1](https://github.com/rbcprolabs/epubx.dart/pull/1)
 ### Added
-- Epub v3 support [dart-epub | pull#76](https://github.com/orthros/dart-epub/pull/76) 
-- Doc comment [dart-epub | pull#80](https://github.com/orthros/dart-epub/pull/80) 
+- Epub v3 support [dart-epub | pull#76](https://github.com/orthros/dart-epub/pull/76)
+- Doc comment [dart-epub | pull#80](https://github.com/orthros/dart-epub/pull/80)
 
 ## 3.0.0-dev.3
 ### Changed
-- At `EpubReader.{openBook, readBook}` first argument can be future (not before) 
+- At `EpubReader.{openBook, readBook}` first argument can be future (not before)
 
 ## 3.0.0-dev.2
 ### Fixed
@@ -75,7 +75,7 @@
 - Raised `sdk` version constraint to 2.0.0
 - Raised constraint on `async` to 3.0.0
 ### Fixed
-- Merged pull request #40 by vblago. 
+- Merged pull request #40 by vblago.
     - Fixes Undefined class 'XmlBuilder'
 
 ## 2.0.2
@@ -115,7 +115,7 @@
 
 ## 1.2.10
 ### Fixed
-- Merged pull request #15 from ShadowJonathan/dev. 
+- Merged pull request #15 from ShadowJonathan/dev.
     - Fixes issue with parsing schema by removing `opf:` namespace
 
 ## 1.2.9
@@ -142,7 +142,7 @@
 
 ## 1.2.4
 ### Changed
-- EnumFromString no longer uses the `mirrors` package to make this Flutter compatible by @MostafaAyesh 
+- EnumFromString no longer uses the `mirrors` package to make this Flutter compatible by @MostafaAyesh
 
 ## 1.2.3
 ### Added
@@ -168,7 +168,7 @@
 - Made code in line with Dart styleguide
 
 ## 1.0.0
-- Initial release of epub_pro
+- Initial release of epub_enchanted
 - Forked from epub_plus with updated dependencies
 - Fixed equality comparison in EpubContentFileRef
 - Removed unnecessary library name
