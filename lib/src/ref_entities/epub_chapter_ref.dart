@@ -41,8 +41,8 @@ class EpubChapterRef {
         listEquals(other.subChapters, subChapters);
   }
 
-  Future<String> readHtmlContent() async {
-    return epubTextContentFileRef!.readContentAsText();
+  Future<String?> readHtmlContent() async {
+    return epubTextContentFileRef?.readContentAsText();
   }
 
   @override

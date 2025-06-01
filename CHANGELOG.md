@@ -1,3 +1,6 @@
+# 5.0.6
+- Case table of content not present Content but exist childrenChapter return element to tree
+
 # 5.0.5
 - Ran dart formatter to improve package score
 

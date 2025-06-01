@@ -71,7 +71,20 @@ class ChapterReader {
     for (var navigationPoint in navigationPoints) {
       String? contentFileName;
       String? anchor;
-      if (navigationPoint.content?.source == null) continue;
+      if (navigationPoint.content?.source == null &&
+          navigationPoint.childNavigationPoints.isNotEmpty) {
+        var chapterRef = EpubChapterRef(
+          title: navigationPoint.navigationLabels.first.text,
+          contentFileName: contentFileName,
+          anchor: anchor,
+          subChapters:
+              getChaptersImpl(bookRef, navigationPoint.childNavigationPoints),
+        );
+        result.add(chapterRef);
+        continue;
+      } else if (navigationPoint.content?.source == null) {
+        continue;
+      }
       var contentSourceAnchorCharIndex =
           navigationPoint.content!.source!.indexOf('#');
       if (contentSourceAnchorCharIndex == -1) {
