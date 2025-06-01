@@ -1,6 +1,6 @@
 # epub_enchanted
 
-This is a fork of a [fork](https://github.com/watate/epub_enchanted), of a [fork](https://github.com/4akloon/epub_plus), of a [fork](https://github.com/ScerIO/epubx.dart), of [dart-epub](https://github.com/orthros/dart-epub). All of which seem unmaintained.
+This is a fork of a [fork](https://github.com/watate/epub_pro), of a [fork](https://github.com/4akloon/epub_plus), of a [fork](https://github.com/ScerIO/epubx.dart), of [dart-epub](https://github.com/orthros/dart-epub). All of which seem unmaintained.
 
 I'm maintaining this so that I can read EPUBs on my app.
 
